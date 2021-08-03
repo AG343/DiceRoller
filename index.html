@@ -1,0 +1,54 @@
+<html lang='en'>
+
+    <head>
+        <meta charset="UTF-8">
+    
+        <title>New Tab</title>
+        <link rel="icon" href='flaticon_search-512.webp'>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://kit.fontawesome.com/0d5add53d5.js" crossorigin="anonymous"></script>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    
+    
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&display=swap');
+        </style>
+        
+    </head>
+    <body style='background-color:white;'>
+        <center>
+            <h1>Virtual Dice Roller</h1>
+            <div class="scene">
+                <div class="cube">
+                  <div class="cube__face cube__face--front">2</div>
+                  <div class="cube__face cube__face--back">5</div>
+                  <div class="cube__face cube__face--right">3</div>
+                  <div class="cube__face cube__face--left">4</div>
+                  <div class="cube__face cube__face--top">1</div>
+                  <div class="cube__face cube__face--bottom">6</div>
+                </div>
+              </div>
+              
+              <button class='btn btn-outline-dark' onclick='roll()'>Roll</button>
+             <h6>NOTE: If the dice does not roll after you press the button, then it has rolled and returned the same number.</h1> 
+<script src='main.js'></script>
+</center>
+    </body>
+    </html>
