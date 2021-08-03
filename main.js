@@ -1,8 +1,7 @@
 var cube = document.querySelector('.cube');
-var radioGroup = document.querySelector('.radio-group');
-var currentClass = '';
+var currentclass = '';
 var num;
-function changeSide() {
+function changeit() {
         num=Math.floor(Math.random()*6)+1
     console.log(num)
     if(num==1){
@@ -23,15 +22,13 @@ function changeSide() {
        else if(num==6){
         num='bottom'
        }
-  var checkedRadio = num;
-  console.log(checkedRadio)
-  var showClass = 'show-' + num;
-  console.log(showClass)
-  if ( currentClass ) {
-    cube.classList.remove( currentClass );
+  var showclass = 'show-' + num;
+  console.log(showclass)
+  if ( currentclass ) {
+    cube.classList.remove( currentclass );
   }
-  cube.classList.add( showClass );
-  currentClass = showClass;
+  cube.classList.add(showclass);
+  currentclass = showclass;
         
 }
 
@@ -39,5 +36,5 @@ function changeSide() {
 
 
 function roll(){
-   changeSide()
+   changeit()
 }
