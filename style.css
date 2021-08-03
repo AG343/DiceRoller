@@ -6,7 +6,7 @@ body {  font-family: 'Shippori Mincho', serif;
 .scene {
   width: 200px;
   height: 200px;
-  border: 1px solid #CCC;
+  border: 1px solid white;
   margin: 80px;
   perspective: 400px;
 }
